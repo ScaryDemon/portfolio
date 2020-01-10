@@ -1,6 +1,8 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { Navigation, Layout, Header, Drawer, Content } from 'react-mdl';
+import Main from './components/main';
+import {Link} from  'react-router-dom';
 
 function App() {
   return (
@@ -8,21 +10,23 @@ function App() {
     <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
         <Header transparent title="Title" style={{color: 'white'}}>
             <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+                <Link to="#">Link</Link>
+                <Link to="#">Link</Link>
             </Navigation>
         </Header>
         <Drawer title="Title">
             <Navigation>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
-                <a href="#">Link</a>
+                <Link to="/">Home</Link>
+                <Link to="#">Link</Link>
+                <Link to="#">Link</Link>
+                <Link to="#">Link</Link>
             </Navigation>
         </Drawer>
-        <Content />
+        <Content>
+          <Main/>
+        </Content>
     </Layout>
   </div>
   );
