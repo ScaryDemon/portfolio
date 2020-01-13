@@ -6,9 +6,9 @@ import {Link} from  'react-router-dom';
 
 function App() {
   return (
-    <div style={{height: '300px', position: 'relative'}}>
-    <Layout style={{background: 'url(http://www.getmdl.io/assets/demos/transparent.jpg) center / cover'}}>
-        <Header transparent title="Title" style={{color: 'white'}}>
+    <div>
+    <Layout>
+        <Header class="header-color" title="Mel Raeven" scroll>
             <Navigation>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
@@ -25,10 +25,11 @@ function App() {
             </Navigation>
         </Drawer>
         <Content>
-          <Main/>
+            <Main/>
+            <div className="page-content" />
         </Content>
     </Layout>
-  </div>
+</div>
   );
 }
 
