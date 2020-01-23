@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import '../App.css';
 import Particles from 'react-particles-js';
 import Logo from '../assets/images/logo.png';
+import Background from '../assets/images/background.jpg';
 
 
 class Landing extends Component {
@@ -14,7 +15,7 @@ class Landing extends Component {
             width="100%"
             height="100vh"
             style={{
-                backgroundColor: '#1a1c1b',
+                backgroundImage: "url(" + Background + ")",
             }}
             params={{
                 particles: {
