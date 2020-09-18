@@ -9,10 +9,10 @@ class Landing extends Component {
     render(){ 
         return(
         <div class="landingPage">
-            <img src={Logo} class="logo-image"></img>
+            <img src={Logo} alt="logo" class="logo-image"></img>
             <Particles 
             id="simple"
-            width="100%"
+            width="100vw"
             height="100vh"
             style={{
                 backgroundImage: "url(" + Background + ")",
@@ -20,7 +20,7 @@ class Landing extends Component {
             params={{
                 particles: {
                     number: {
-                        value: 100,
+                        value: 120,
                     },
                     size: {
                         value: 5,

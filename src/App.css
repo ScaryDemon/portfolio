@@ -19,3 +19,17 @@
 .material-icons {
   color: #ffffff
 }
+.textfieldContainer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-Color: #d7edf4;
+  border-radius: 5px;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

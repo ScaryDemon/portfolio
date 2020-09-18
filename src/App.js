@@ -10,18 +10,16 @@ function App() {
     <Layout>
         <Header class="header-color" title="Mel Raeven" scroll>
             <Navigation>
+                <Link to="/">Home</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
-                <Link to="#">Link</Link>
-                <Link to="#">Link</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="Mel Raeven" style={{backgroundColor: "black", color:"white"}}>
             <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="#">Link</Link>
-                <Link to="#">Link</Link>
-                <Link to="#">Link</Link>
+                <Link to="/" style={{color:"white"}}>Home</Link>
+                <Link to="/projects" style={{color:"white"}}>Projects</Link>
+                <Link to="/contact" style={{color:"white"}}>Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
