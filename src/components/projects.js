@@ -13,7 +13,11 @@ class Projects extends Component {
                     The programming and setting up the mechanics was done by me.
                 </CardText>
                 <CardActions border>
-                    <Button colored>View Project</Button>
+                    <Button 
+                        colored
+                        onClick={() => {}}>
+                        View Project
+                    </Button>
                 </CardActions>
             </Card>
             <Card shadow={0} style={{width: '30%', height: '320px', margin: '1%', float:"left"}}>
@@ -34,7 +38,11 @@ class Projects extends Component {
                     Aenan convallis.
                 </CardText>
                 <CardActions border>
-                    <Button colored>View Project</Button>
+                    <Button 
+                        colored
+                        onClick={() => {}}>
+                        View Project
+                    </Button>
                 </CardActions>
             </Card>
         </div>
