@@ -7,7 +7,7 @@ class Contact extends Component {
         return(
         <div class="container">
             <div class="textfieldContainer">
-                <h1 style={{margin: '10px', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '50px'}}>Contact</h1>
+                <h1 style={{margin: '10px', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '50px', color: 'white'}}>Contact</h1>
                 <Grid className="grid-1">
                     <Textfield
                         onChange={() => {}}

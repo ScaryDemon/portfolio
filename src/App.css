@@ -1,5 +1,5 @@
 .header-color {
-  background: #396c82;
+  background: #373837;
   color: white;
 }
 
@@ -24,7 +24,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-Color: #d7edf4;
+  background-Color: #4F6175;
   border-radius: 5px;
 }
 

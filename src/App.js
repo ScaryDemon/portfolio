@@ -10,9 +10,9 @@ function App() {
     <Layout>
         <Header class="header-color" title="Mel Raeven" scroll>
             <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/" style={{color:'#f73838', fontWeight: 'bold'}}>Home</Link>
+                <Link to="/projects" style={{color:'#47e551', fontWeight: 'bold'}}>Projects</Link>
+                <Link to="/contact" style={{color:'#f7d138', fontWeight: 'bold'}}>Contact</Link>
             </Navigation>
         </Header>
         <Drawer title="Mel Raeven" style={{backgroundColor: "black", color:"white"}}>
