@@ -8,18 +8,18 @@ function App() {
   return (
     <div>
     <Layout>
-        <Header class="header-color" title="Mel Raeven" scroll>
+        <Header class="header-color" title="{[ Mel Raeven ]}" scroll>
             <Navigation>
-                <Link to="/" style={{color:'#f73838', fontWeight: 'bold'}}>Home</Link>
+                <Link to="/" style={{color:'#f73838', fontWeight: 'bolder'}}>Home</Link>
                 <Link to="/projects" style={{color:'#47e551', fontWeight: 'bold'}}>Projects</Link>
                 <Link to="/contact" style={{color:'#f7d138', fontWeight: 'bold'}}>Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title="Mel Raeven" style={{backgroundColor: "black", color:"white"}}>
+        <Drawer title="Mel Raeven" style={{backgroundColor: "#373837", color:"white"}}>
             <Navigation>
-                <Link to="/" style={{color:"white"}}>Home</Link>
-                <Link to="/projects" style={{color:"white"}}>Projects</Link>
-                <Link to="/contact" style={{color:"white"}}>Contact</Link>
+                <Link to="/" style={{color:"#f73838", fontWeight:"bolder"}}>Home</Link>
+                <Link to="/projects" style={{color:"#47e551", fontWeight:"bold"}}>Projects</Link>
+                <Link to="/contact" style={{color:"#f7d138", fontWeight:"bold"}}>Contact</Link>
             </Navigation>
         </Drawer>
         <Content>
