@@ -2,6 +2,9 @@
   background: #373837;
   color: white;
 }
+.redText {
+  color: red;
+}
 
 .landingPage {
   height: auto;
