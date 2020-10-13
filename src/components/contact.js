@@ -3,6 +3,7 @@ import { Textfield, Grid, Button } from 'react-mdl';
 import '../App.css';
 
 class Contact extends Component {
+    
     render(){ 
         return(
         <div class="container">

@@ -36,3 +36,12 @@
   justify-content: center;
   align-items: center;
 }
+
+
+.cardStyling {
+  width: '30%'; 
+  height: '250px';
+  margin: '1%';
+  float:"left";
+  background-color:"black";
+}

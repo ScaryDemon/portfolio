@@ -4,9 +4,53 @@ import '../App.css';
 import { Link } from 'react-router-dom'
 
 class Projects extends Component {
-    nextPath(path) {
-        this.props.history.push(path);
-      }
+    // constructor() {
+    //     super();
+    //     this.state = {
+    //       width:  800,
+    //       height: 182,
+    //       cardWidth,
+    //       height
+    //     }
+    //   }
+    
+    //   /**
+    //    * Calculate & Update state of new dimensions
+    //    */
+    //   updateDimensions() {
+    //     if(window.innerWidth < 500) {
+    //       this.setState({ width: 450, height: 102 });
+    //     } else {
+    //       let update_width  = window.innerWidth-100;
+    //       let update_height = Math.round(update_width/4.4);
+    //       this.setState({ width: update_width, height: update_height });
+    //     }
+    //   }
+    
+    //   /**
+    //    * Add event listener
+    //    */
+    //   componentDidMount() {
+    //     this.updateDimensions();
+    //     window.addEventListener("resize", this.updateDimensions.bind(this));
+    //   }
+    
+    //   /**
+    //    * Remove event listener
+    //    */
+    //   componentWillUnmount() {
+    //     window.removeEventListener("resize", this.updateDimensions.bind(this));
+    //   }
+
+    //   cardScaling(){
+    //       const updatedCardWidth = '30%'
+    //       if (this.state.width === '450'){
+    //         cardWidth = Math.min(this.state.width / 3)
+    //         this.setState({cardWidth: updatedCardWidth});
+            
+    //       }
+    //   }
+
     render(){
         return(
         <div class="container" style={{boxSizing: "border-box"}}>
