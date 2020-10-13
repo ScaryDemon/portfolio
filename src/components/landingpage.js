@@ -16,6 +16,8 @@ class Landing extends Component {
             height="100vh"
             style={{
                 backgroundImage: "url(" + Background + ")",
+                BackgroundRepeat: "no-repeat",
+                backgroundSize: "cover"
             }}
             params={{
                 particles: {
