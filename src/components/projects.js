@@ -80,15 +80,15 @@ class Projects extends Component {
                 </CardActions>
             </Card>
             <Card shadow={0} style={{width: '30%', height: '250px', margin: '1%', float:"left", backgroundColor:"black"}}>
-                <CardTitle expand style={{color: '#fff', fontSize:'2em'}}>Update();</CardTitle>
+                <CardTitle expand style={{color: '#fff', fontSize:'2em'}}>The cybersecurity. <span class="redText">project();</span></CardTitle>
                 <CardText style={{color:"white", fontfamily: "courier new"}}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Aenan convallis.
+                    I'm very interested in the cybersecurity side of the internet. It is important for developers to 
+                    understand how to protect their apps. That's the reason why I started this project.
                 </CardText>
                 <CardActions border>
                     <Button 
                         style={{color:"#47e551"}}
-                        component={Link} to="/github">
+                        component={Link} to="/cybersecurity-project">
                         View Project
                     </Button>
                 </CardActions>

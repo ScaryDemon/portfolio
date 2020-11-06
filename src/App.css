@@ -29,9 +29,17 @@
   transform: translate(-50%, -50%);
   background-Color: #4F6175;
   border-radius: 5px;
+  text-align: center;
 }
 
-.grid-1, .grid-2, .grid-3, .grid-4{
+.projectContainer {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -44,4 +52,9 @@
   margin: '1%';
   float:"left";
   background-color:"black";
+}
+
+.ProjectImage {
+  width: 40vw;
+  height: 50vh;
 }

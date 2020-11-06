@@ -8,31 +8,32 @@ class Contact extends Component {
         return(
         <div class="container">
             <div class="textfieldContainer">
-                <h1 style={{margin: '10px', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '50px', color: 'white'}}>Contact</h1>
+                <h1 style={{margin: '10px', paddingLeft: '50px', paddingRight: '50px', paddingBottom: '0px', color: 'white'}}>Contact</h1>
                 <Grid className="grid-1">
-                    <Textfield
-                        onChange={() => {}}
-                        label="Name..."
-                        style={{width: '200px'}}
-                    />
+                    <h8 style={{color:"white", paddingBottom:'30px'}}>You can contact me at the following places:</h8>
                 </Grid>
                 <Grid className="grid-2">
-                    <Textfield
-                        onChange={() => {}}
-                        label="Email adress..."
-                        style={{width: '200px'}}
-                    />
+                   <Button raised accent href="http://linkedin.com/in/mel-raeven-2670ab1a4" target="_blank">LinkedIn</Button>
                 </Grid>
                 <Grid className="grid-3">
-                    <Textfield
-                    onChange={() => {}}
-                    label="Text lines..."
-                    rows={3}
-                    style={{width: '200px'}}
-                    />
+                <Button raised accent href="http://instagram.com/mel_raeven" target="_blank">Instagram</Button>
                 </Grid>
+                <div style={{margin: "50px"}}></div>
                 <Grid className="grid-4">
-                    <Button raised accent ripple onClick={() => {alert("message has been sent!")}}>Send!</Button>
+                   <Button raised accent href="https://github.com/ScaryDemon" target="_blank">Github</Button>
+                </Grid>
+                <Grid className="grid-5">
+                   <Button raised accent href="https://gitlab.com/ravendocx" target="_blank">Gitlab</Button>
+                </Grid>
+                <Grid className="grid-6">
+                    <div style={{margin:"10px"}}>
+                        <p>Email (private)</p>
+                        <p>mel.raeven@gmail.com</p>
+                    </div>
+                    <div style={{margin:"10px"}}>
+                        <p>Email (business)</p>
+                        <p>ravendocx@protonmail.com</p>
+                    </div>
                 </Grid>
             </div>
         </div>
