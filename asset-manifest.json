@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.09d79ea7.chunk.css",
-    "main.js": "/portfolio/static/js/main.e6cc1b75.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.e6cc1b75.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.fbadc608.chunk.css",
+    "main.js": "/portfolio/static/js/main.f7229ae7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.f7229ae7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b649af6b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b649af6b.js.map",
     "static/css/2.cd1c2086.chunk.css": "/portfolio/static/css/2.cd1c2086.chunk.css",
-    "static/js/2.13f9c4fe.chunk.js": "/portfolio/static/js/2.13f9c4fe.chunk.js",
-    "static/js/2.13f9c4fe.chunk.js.map": "/portfolio/static/js/2.13f9c4fe.chunk.js.map",
+    "static/js/2.5f7830db.chunk.js": "/portfolio/static/js/2.5f7830db.chunk.js",
+    "static/js/2.5f7830db.chunk.js.map": "/portfolio/static/js/2.5f7830db.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ce73c6325a8a19886982b240046600c0.js": "/portfolio/precache-manifest.ce73c6325a8a19886982b240046600c0.js",
+    "precache-manifest.0c8cdbc5e79a1f7c2b342fcaf945d30d.js": "/portfolio/precache-manifest.0c8cdbc5e79a1f7c2b342fcaf945d30d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.cd1c2086.chunk.css.map": "/portfolio/static/css/2.cd1c2086.chunk.css.map",
-    "static/css/main.09d79ea7.chunk.css.map": "/portfolio/static/css/main.09d79ea7.chunk.css.map",
-    "static/js/2.13f9c4fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.13f9c4fe.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/portfolio/static/media/background.3309ca13.jpg",
+    "static/css/main.fbadc608.chunk.css.map": "/portfolio/static/css/main.fbadc608.chunk.css.map",
+    "static/js/2.5f7830db.chunk.js.LICENSE.txt": "/portfolio/static/js/2.5f7830db.chunk.js.LICENSE.txt",
+    "static/media/background.jpg": "/portfolio/static/media/background.3309ca13.jpg",
+    "static/media/fietswiel video.mp4": "/portfolio/static/media/fietswiel video.a71c875a.mp4",
+    "static/media/fietswiel.jpg": "/portfolio/static/media/fietswiel.9b403be8.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.9d8d053a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b649af6b.js",
     "static/css/2.cd1c2086.chunk.css",
-    "static/js/2.13f9c4fe.chunk.js",
-    "static/css/main.09d79ea7.chunk.css",
-    "static/js/main.e6cc1b75.chunk.js"
+    "static/js/2.5f7830db.chunk.js",
+    "static/css/main.fbadc608.chunk.css",
+    "static/js/main.f7229ae7.chunk.js"
   ]
 }
