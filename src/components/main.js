@@ -5,6 +5,7 @@ import Projects from './projects';
 import Contact from './contact';
 import BycicleWheelProject from './bycicle-wheel-project';
 import cybersecurityProject from './cybersecurity-project';
+import glowProject from './glow-project'
 import Github from "./github";
 
 const Main = () => (
@@ -15,6 +16,7 @@ const Main = () => (
         <Route path="/bycicle-wheel-project" component={BycicleWheelProject}/>
         <Route path="/cybersecurity-project" component={cybersecurityProject}/>
         <Route path="/Github" component={Github}/>
+        <Route path="/glow-project" component={glowProject}/>
     </Switch>
 )
 

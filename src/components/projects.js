@@ -93,6 +93,19 @@ class Projects extends Component {
                     </Button>
                 </CardActions>
             </Card>
+            <Card shadow={0} style={{width: '30%', height: '250px', margin: '1%', float:"left", backgroundColor:"black"}}>
+                <CardTitle expand style={{color: '#fff', fontSize:'2em'}}>GLOW 2020. <span class="redText">project();</span></CardTitle>
+                <CardText style={{color:"white", fontfamily: "courier new"}}>
+                    This year I have participated in the anual GLOW show in Eindhoven.
+                </CardText>
+                <CardActions border>
+                    <Button 
+                        style={{color:"#47e551"}}
+                        component={Link} to="/glow-project">
+                        View Project
+                    </Button>
+                </CardActions>
+            </Card>
         </div>
         )
     }
