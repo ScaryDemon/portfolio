@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import { Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
-import BycicleWheelImage from '../assets/images/projects/fietswiel.jpg';
-import BycicleWheelVideo from '../assets/images/projects/fietswiel video.mp4';
 import '../App.css';
 
 class CybersecurityProject extends Component {
