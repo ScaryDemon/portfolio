@@ -1,8 +1,8 @@
 {
-  "name": "my-portfolio",
+  "name": "Mel's portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://ScaryDemons.github.io/portfolio",
+  "homepage": "http://ScaryDemons.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
